@@ -1,3 +1,4 @@
+import { MomentPipe } from './shared/moment.pipe';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -11,7 +12,8 @@ import { OrganizerComponent } from './organizer/organizer.component';
     AppComponent,
     CalendarComponent,
     SelectorComponent,
-    OrganizerComponent
+    OrganizerComponent,
+    MomentPipe
   ],
   imports: [
     BrowserModule
